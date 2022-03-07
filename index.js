@@ -34,7 +34,7 @@ function checkPermission(req,res,next)
     {
         console.log(2);
     }
-    console.log(1);
+    // console.log(1);
     next();
 }
 app.listen(4500, () =>
